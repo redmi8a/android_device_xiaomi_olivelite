@@ -26,8 +26,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00008000
 BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
-TARGET_PREBUILT_KERNEL := device/Xiaomi/olivelite/kernel
-TARGET_RECOVERY_FSTAB := device/Xiaomi/olivelite/recovery.fstab
+TARGET_PREBUILT_KERNEL := device/xiaomi/olivelite/kernel
+TARGET_RECOVERY_FSTAB := device/xiaomi/olivelite/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # TWRP
@@ -36,7 +36,7 @@ TW_NO_EXFAT := true
 TW_NO_EXFAT_FUSE := true
 TW_USE_TOOLBOX := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-TW_DEVICE_VERSION := 1 (by milankragujevic)
+TW_DEVICE_VERSION := milankragujevic_9.0_v1
 TW_SCREEN_BLANK_ON_BOOT := false
 TW_EXTRA_LANGUAGES := false
 TWRP_INCLUDE_LOGCAT := true
